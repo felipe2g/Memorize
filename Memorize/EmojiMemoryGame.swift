@@ -7,12 +7,10 @@
 
 import SwiftUI
 
-func createCardContent(pairIndex: Int) -> String {
-    return "🥳"
-}
-
 class EmojiMemoryGame {
-    private(set) var model: MemoryGame<String> = MemoryGame<String>(numberOfPairsOfCards: 2, cardContentFactory: createCardContent)
+    private(set) var model: MemoryGame<String> = MemoryGame<String>(numberOfPairsOfCards: 2, cardContentFactory: {(pairIndex: Int) -> String in
+        return "🥳"
+    })
     
     
     //MARK: - Access to the model
