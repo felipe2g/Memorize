@@ -13,6 +13,7 @@
 		F93C984C25EA9C7300BB0CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93C984B25EA9C7300BB0CEB /* Assets.xcassets */; };
 		F93C984F25EA9C7300BB0CEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93C984E25EA9C7300BB0CEB /* Preview Assets.xcassets */; };
 		F93C985225EA9C7300BB0CEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93C985025EA9C7300BB0CEB /* LaunchScreen.storyboard */; };
+		F93C985C25EAA0DE00BB0CEB /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93C985B25EAA0DE00BB0CEB /* MemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F93C984E25EA9C7300BB0CEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F93C985125EA9C7300BB0CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F93C985325EA9C7300BB0CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93C985B25EAA0DE00BB0CEB /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F93C984525EA9C7100BB0CEB /* AppDelegate.swift */,
 				F93C984725EA9C7100BB0CEB /* SceneDelegate.swift */,
 				F93C984925EA9C7100BB0CEB /* ContentView.swift */,
+				F93C985B25EAA0DE00BB0CEB /* MemoryGame.swift */,
 				F93C984B25EA9C7300BB0CEB /* Assets.xcassets */,
 				F93C985025EA9C7300BB0CEB /* LaunchScreen.storyboard */,
 				F93C985325EA9C7300BB0CEB /* Info.plist */,
@@ -147,6 +150,7 @@
 			files = (
 				F93C984625EA9C7100BB0CEB /* AppDelegate.swift in Sources */,
 				F93C984825EA9C7100BB0CEB /* SceneDelegate.swift in Sources */,
+				F93C985C25EAA0DE00BB0CEB /* MemoryGame.swift in Sources */,
 				F93C984A25EA9C7100BB0CEB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
