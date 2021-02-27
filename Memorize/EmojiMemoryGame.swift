@@ -8,9 +8,7 @@
 import SwiftUI
 
 class EmojiMemoryGame {
-    private(set) var model: MemoryGame<String> = MemoryGame<String>(numberOfPairsOfCards: 2, cardContentFactory: {(pairIndex: Int) -> String in
-        return "🥳"
-    })
+    private(set) var model: MemoryGame<String> = MemoryGame<String>(numberOfPairsOfCards: 2, cardContentFactory: { pairIndex in "🥳" })
     
     
     //MARK: - Access to the model
